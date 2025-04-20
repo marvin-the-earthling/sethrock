@@ -1,0 +1,38 @@
+
+body {
+    background-color: black;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.terminal {
+    max-width: 800px;
+    margin: auto;
+}
+
+.boot-line {
+    display: none;
+    animation: type 0.5s steps(30, end);
+}
+
+.menu {
+    display: none;
+    margin-top: 20px;
+}
+
+.menu a {
+    color: #33ff33;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@keyframes type {
+    from { width: 0 }
+    to { width: 100% }
+}
